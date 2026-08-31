@@ -5,6 +5,7 @@
 
 ## `Phase 2`: Dependency Enumeration
 
+You can access the `Dependency Enumeration` phase in [here](Dependency%20Enumeration.md)
 
 ## `Phase 3`: Package Reputation Analysis
 
