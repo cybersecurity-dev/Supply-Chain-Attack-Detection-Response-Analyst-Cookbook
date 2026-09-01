@@ -7,7 +7,7 @@
 > You can access the `Dependency Enumeration` phase in [here](Dependency%20Enumeration.md)
 
 ## `Phase 3`: Package Reputation Analysis
-> You can access the `Package Reputation Analysis` phase in [here](Scope%20Identification.md)
+> You can access the `Package Reputation Analysis` phase in [here](Package%20Reputation%20Analysis.md)
 
 ## `Phase 4`: Source Code Review
 
