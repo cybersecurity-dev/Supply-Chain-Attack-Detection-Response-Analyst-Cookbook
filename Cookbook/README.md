@@ -1,14 +1,13 @@
 # `Supply Chain Attack` Analysis Steps
 
 ## `Phase 1`: Scope Identification
-
+> You can access the `Scope Identification` phase in [here](Scope%20Identification.md)
 
 ## `Phase 2`: Dependency Enumeration
-
-You can access the `Dependency Enumeration` phase in [here](Dependency%20Enumeration.md)
+> You can access the `Dependency Enumeration` phase in [here](Dependency%20Enumeration.md)
 
 ## `Phase 3`: Package Reputation Analysis
-
+> You can access the `Package Reputation Analysis` phase in [here](Scope%20Identification.md)
 
 ## `Phase 4`: Source Code Review
 
