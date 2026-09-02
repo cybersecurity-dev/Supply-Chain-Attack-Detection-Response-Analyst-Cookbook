@@ -1,6 +1,6 @@
 <div align="center">
   
-# [Supply Chain Attack](https://wikipedia.org/wiki/Supply_chain_attack) Detection and Response [Analyst](https://github.com/cybersecurity-dev/awesome-supply-chain-attack)'s Cookbook
+# [Supply Chain Attack](https://github.com/cybersecurity-dev/awesome-supply-chain-attack) Detection and Response [Analyst](https://github.com/cybersecurity-dev/awesome-supply-chain-attack-resources)'s Cookbook
 </div>
 
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]()
