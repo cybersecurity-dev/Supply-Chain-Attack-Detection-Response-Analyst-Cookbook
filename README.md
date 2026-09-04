@@ -1,5 +1,35 @@
 <div align="center">
-  
+
+```mermaid
+flowchart TD
+
+    S[Supply Chain Attack]
+
+    S --> T[Target]
+
+    T --> T1[Source Code]
+    T --> T2[Dependency]
+    T --> T3[Build System]
+    T --> T4[Package Registry]
+    T --> T5[Container Image]
+
+    S --> D[Detection]
+
+    D --> D1[SBOM Analysis]
+    D --> D2[Dependency Scanning]
+    D --> D3[Static Analysis]
+    D --> D4[Behavior Analysis]
+    D --> D5[Threat Intelligence]
+
+    S --> R[Response]
+
+    R --> R1[Containment]
+    R --> R2[Artifact Revocation]
+    R --> R3[Credential Rotation]
+    R --> R4[Environment Rebuild]
+    R --> R5[Recovery]
+```
+
 # [Supply Chain Attack](https://github.com/cybersecurity-dev/awesome-supply-chain-attack) Detection and Response [Analyst](https://github.com/cybersecurity-dev/awesome-supply-chain-attack-resources)'s Cookbook
 </div>
 
@@ -17,6 +47,35 @@
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
 </p>
 
+> Software Supply Chain Security Pipeline
+
+```mermaid
+flowchart LR
+
+    DEV[Developer]
+    REPO[Source Repository]
+    CI[CI/CD Pipeline]
+    BUILD[Build Artifact]
+    REG[Package Registry]
+    PROD[Production Environment]
+
+    DEV --> REPO
+    REPO --> CI
+    CI --> BUILD
+    BUILD --> REG
+    REG --> PROD
+
+    CI --> SAST[Static Analysis]
+    CI --> SCA[Dependency Scan]
+    CI --> SECRET[Secret Scan]
+
+    BUILD --> SIGN[Artifact Signing]
+
+    REG --> VERIFY[Signature Verification]
+
+    VERIFY --> PROD
+```
+
 ## 📖 Contents
 - [Supply Chain Attack Detection and Response Steps](#supply-chain-attack-detection-and-response-steps)
 - [My Other Awesome Lists](#my-other-awesome-lists)
@@ -25,6 +84,28 @@
 
 
 ## **Supply Chain Attack** Detection and Response Steps
+
+> Supply Chain Attack Investigation
+
+```mermaid
+flowchart TD
+
+    A[Security Alert]
+
+    A --> B{Source?}
+
+    B -->|Dependency| C[Analyze Package]
+    B -->|CI/CD| D[Audit Pipeline]
+    B -->|Repository| E[Review Commits]
+    B -->|Artifact| F[Verify Signatures]
+
+    C --> G[Determine Scope]
+    D --> G
+    E --> G
+    F --> G
+
+    G --> H[Incident Report]
+```
 
 ### `Phase 1`: Scope Identification
 
@@ -67,6 +148,7 @@
 
 
 ### `Phase 15`: Threat Hunting Indicators
+
 
 
 ##
